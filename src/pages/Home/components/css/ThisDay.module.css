@@ -1,0 +1,35 @@
+.thisDay {
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 2px 5px 25px -3px rgba(180, 180, 180, 0.25);
+  border-radius: 20px;
+}
+
+.topBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.topBlock svg {
+  width: 119px;
+  height: 119px;
+}
+.topBlock .thisTemp {
+  font-size: 96px;
+  font-weight: 500;
+  color: #4793ff;
+}
+.topBlock .thisDayName {
+  font-size: 40px;
+  color: #000;
+}
+
+.bottomBlock .thisTime,
+.bottomBlock .thisCity {
+  color: #939CB0;
+  font-size: 25px;
+}
