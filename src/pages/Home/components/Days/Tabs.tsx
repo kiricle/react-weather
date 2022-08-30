@@ -16,8 +16,6 @@ function Tabs(props: Props) {
     },
   ];
 
-  console.log(s)
-
   return (
     <div className={s.tabs}>
       <div className={s.tabsWrapper}>

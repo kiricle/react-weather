@@ -80,7 +80,7 @@ const Days = (props: Props) => {
       <div className={s.days}>
         {
           days.map((day: Day) =>
-            <Card dayInfo={day} />)
+            <Card dayInfo={day} key={day.day} />)
         }
       </div>
     </>
